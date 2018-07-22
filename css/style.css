@@ -1,0 +1,144 @@
+@charset "UTF-8";
+* {
+  font-family: "Montserrat", 微軟正黑體;
+  letter-spacing: 1px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+body {
+  height: 3000px;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  font-weight: bold;
+  color: #000;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #FD9804;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(https://ecowatchroar-img.rbl.ms/simage/https%3A%2F%2Fassets.rbl.ms%2F17069193%2F1200x600.jpg/2000%2C2000/NjJL%2FuXAU%2BFE6q%2Fn/img.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  color: #000;
+  padding: 200px 0px;
+}
+header.jumbotron .container h1, header.jumbotron .container h3 {
+  background-color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+}
+header.jumbotron hr {
+  max-width: 50px;
+  border: 2px solid #FD9804;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#ask {
+  background-color: #FD9804;
+}
+section#ask .col-sm-5.img {
+  background-image: url(https://i.imgur.com/D0KUuI4.jpg);
+  height: 350px;
+  background-repeat: no-repeat;
+  mix-blend-mode: hard-light;
+}
+section#ask h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+  color: #fff;
+}
+
+section#evolution .img_wrap {
+  height: 230px;
+  overflow: hidden;
+}
+section#evolution img {
+  width: 120%;
+}
+section#evolution h3 {
+  margin-bottom: 20px;
+}
+
+section#features {
+  background-color: #fff;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+section#features .container-fluid {
+  background-color: #1570FF;
+}
+section#features .col-sm-5 {
+  background-image: url(https://www.wur.nl/upload_mm/6/5/d/3a582be1-c26e-401b-8d0c-353e2f60956c_shutterstock_219083446_9f00292b_490x330.jpg);
+  background-size: 120% auto;
+  height: 350px;
+}
+section#features .col-sm-12 {
+  text-align: center;
+}
+section#features .col-sm-7 i {
+  font-size: 40px;
+}
+section#features .features {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section#now img {
+  width: 100%;
+}
+section#now i {
+  font-size: 30px;
+}
+section#now .feature {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer.jumbotron {
+  text-align: center;
+  background-image: url(https://ecowatchroar-img.rbl.ms/simage/https%3A%2F%2Fassets.rbl.ms%2F17069193%2F1200x600.jpg/2000%2C2000/NjJL%2FuXAU%2BFE6q%2Fn/img.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+footer.jumbotron .container {
+  color: #000;
+  padding: 60px 0px;
+}
+footer.jumbotron .container h1, footer.jumbotron .container h2 {
+  background-color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+}
+footer.jumbotron hr {
+  max-width: 50px;
+  border: 2px solid #FD9804;
+}
+footer.jumbotron input {
+  background-color: rgba(255, 255, 255, 0.6);
+  max-width: 400px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
